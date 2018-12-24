@@ -2,7 +2,7 @@
 
 - [ Data analysis basics with Python ](#Data-analysis-basics-with-Python)
 - [Data visualization & EDA  ](#Data-visualization-&-EDA)
-- [Machine Learning Foundation](#Machin- Learning-Foundation)
+- [Machine Learning Foundation](#Machin-Learning-Foundation)
 - [Machine Learning Intermediate](#Machine-Learning-Intermediate)
 - [ML Basics for AI](#M-Basics-Fof-AII)
 - [Machine Learning Advancedh](#Machine-Learning-Advanced)
