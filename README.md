@@ -1,12 +1,12 @@
 ## Table of Contents
 
-- [ Data analysis basics with Python ](#Data-analysis-basics-with-Python)
-- [Data visualization & EDA  ](#Data-visualization-&-EDA)
+- [ Data analysis basics with Python](#Data-analysis-basics-with-Python)
+- [Data visualization & EDA](#Data-visualization-&-EDA)
 - [Machine Learning Foundation](#Machin-Learning-Foundation)
 - [Machine Learning Intermediate](#Machine-Learning-Intermediate)
-- [ML Basics for AI](#M-Basics-Fof-AII)
-- [Machine Learning Advancedh](#Machine-Learning-Advanced)
-- [Tensorflow/Pytorch/fast.ai for Deep Learning Advanced ](#ensorflow-Pytorch-fast.ai-for-Deep-Learning)
+- [ML Basics for AI](#ML-Basics-For-AI)
+- [Machine Learning Advanced](#Machine-Learning-Advanced)
+- [Tensorflow/Pytorch/fast.ai for Deep Learning Advanced](#Tensorflow-/-Pytorch-/-fast.ai-for-Deep-Learning-Advanced)
 - [Capstone Project](#Capstone-Project)
 - [Data visualization with Tableau](#Data-Visualization-with-Tableau)
 
