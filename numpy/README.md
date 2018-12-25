@@ -52,6 +52,7 @@ Reference https://docs.scipy.org/doc/numpy-1.15.0/user/quickstart.html
 - Multidimensional arrays can have one index per axis. These indices are given in a tuple separated by commas
 - When fewer indices are provided than the number of axes, the missing indices are considered complete slices
 - The dots (...) represent as many colons as needed to produce a complete indexing tuple. For example, if x is an array with 5 axes, then.
+##                                                        
 	x[1,2,...] is equivalent to x[1,2,:,:,:],
 	x[...,3] to x[:,:,:,:,3] and
 	x[4,...,5,:] to x[4,:,:,5,:].
