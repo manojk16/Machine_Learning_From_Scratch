@@ -59,6 +59,41 @@ Reference https://docs.scipy.org/doc/numpy-1.15.0/user/quickstart.html
 ## Shape manupulation(Changing the shape of an array)
 - An array has a shape given by the number of elements along each axis:
 - Some method change the exiting array some leave remain same
-## Splitting one array into several smaller ones
+## Reference 2: From Python to Numpy:
+### Memory Layout
+	An instance of class ndarray consists of a contiguous 1-D segment of computer memmory,combined with an indexing
+	Scheme that maps N integres in to the location of an item in the block.
+### Strides:
+	Strides are the number of bytes you need to step in each dimension when traversing the array.
+### Calculating strides:
+	If you want to move across one array in dimension 0, you need to move across three items. Each item has size 2 bytes.         So the stride in dimension 0 is 2 bytes x 3 items = 6 bytes.
+
+	Similarly, if you want to move across one unit in dimension 1, you need to move across 1 item. So the stride in
+	dimension 1 is 2 bytes x 1 item = 2 bytes. The stride in the last dimension is always equal to the itemsize
+
+### veiws and Copies: 
+- concepts for the optimization of your numerical computations.
+### Direct and indirect access(Indexing v/s Fancy Indexing):
+-  Direct Indexing always returns a 'view' while fancy(Indirect) indexing always returns a 'copy'.
+- Modifying the 'view' modifies the base array while this is not true when in Indirect indexing.
+### view Indexing
+	An array that does not own its data, but refers to another array’s data instead. For example, we may create a view 
+	that only shows every second element of another array:
+	>>> x = np.arange(5)
+	>>> x
+	array([0, 1, 2, 3, 4])
+
+	>>> y = x[::2]
+	>>> y
+	array([0, 2, 4])
+
+	>>> x[0] = 3 # changing x changes y as well, since y is a view on x
+	>>> y
+	array([3, 2, 4])
+### Advanced Indexing (Copy):
+	Advanced indexing always returns a copy of the data (contrast with basic slicing that returns a view).
+	>>> x = np.array([[1, 2], [3, 4], [5, 6]])
+	>>> x[[0, 1, 2], [0, 1, 0]]
+	array([1, 4, 5])
 
 	
