@@ -56,4 +56,9 @@ Reference https://docs.scipy.org/doc/numpy-1.15.0/user/quickstart.html
 	x[1,2,...] is equivalent to x[1,2,:,:,:],
 	x[...,3] to x[:,:,:,:,3] and
 	x[4,...,5,:] to x[4,:,:,5,:].
+## Shape manupulation(Changing the shape of an array)
+- An array has a shape given by the number of elements along each axis:
+- Some method change the exiting array some leave remain same
+## Splitting one array into several smaller ones
+
 	
