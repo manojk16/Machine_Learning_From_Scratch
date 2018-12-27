@@ -96,4 +96,9 @@ Reference https://docs.scipy.org/doc/numpy-1.15.0/user/quickstart.html
 	>>> x[[0, 1, 2], [0, 1, 0]]
 	array([1, 4, 5])
 
-	
+### Miscellaneous Floating Point Special Values
+- Special values defined in numpy: nan, inf,
+- np.nan allows for vectorized operations; its a float value, while None, by definition, forces object type, which basically   disables all efficiency in numpy.
+- diag(v, k=0) Extract a diagonal or construct a diagonal array
+- unravel_index -> Converts a flat index or array of flat indices into a tuple of coordinate arrays
+- np.ubyte-> Base class for numpy scalar types
