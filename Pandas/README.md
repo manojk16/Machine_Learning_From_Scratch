@@ -60,7 +60,7 @@
 - we can also apply built-in function to df
 ### Data I/O :
 - Pandas used to read/write the files:(csv,excel,html or sql)
-- for reading from html we need to install some libs like below
+##### For reading from html we need to install some libs like below
 	conda install lxml
 	conda install html5lib
 	conda install BeautifulSoup4
